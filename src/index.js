@@ -7,7 +7,7 @@ dotenv.config({
     path: '../env'
 });
 
-// lerning : I was made a double app means double server that cause me errors
+// lerning : I was made a double app means double server's instance that cause me errors
 
 connectDb()
 .then(()=>{
